@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
+
+body {
+  font-family: "DM Mono", monospace;
+}
+.form-group {
+  margin: 2rem 0;
+}
+label {
+  margin-bottom: 1rem;
+}
+@media (min-width: 768px) {
+  .category-wrapper {
+    border-right: 2px solid #999;
+  }
+}
+
+#loader,
+.message,
+.radio-group input[type="radio"]{
+  display: none;
+}
+   
